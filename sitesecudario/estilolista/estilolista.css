@@ -1,0 +1,226 @@
+body{
+	min-width: 960px; /* Define a largura mínima da página como Ypx */
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /* Define a família de fontes prioritárias para o texto */
+	font-size: 14px; /* Define o tamanho da fonte como Ypx */
+	background: #ffffff url( ) repeat-x; /* Define o fundo com uma imagem que se repete horizontalmente */
+	color: #36352e; /* Define a cor do texto  */
+	margin: 0px; /* Remove a margem padrão ao redor do body */
+}
+
+#container{
+	width: 900px; /* Define a largura do container como 900px */
+	min-width: 900px; /* Define a largura mínima do container como 900px */
+	margin: 0px auto; /* Centraliza o container horizontalmente com margem automática */
+	border-left: 2px groove #b19e90; /* Adiciona uma borda esquerda de 2px com estilo groove na cor #b19e90 */
+	border-right: 2px groove #b19e90; /* Adiciona uma borda direita de 2px com estilo groove na cor #b19e90 */
+}
+
+#logo{
+	background: #ffffff url( ) no-repeat; /* Define o fundo branco (#ffffff) com uma imagem que não se repete */
+	width: 90px; /* Define a largura do logo como 90px */
+	height: 500px; /* Define a altura do logo como 500px */
+}
+
+#menu{
+	width: 900px; /* Define a largura do menu como 900px */
+	height: 35px; /* Define a altura do menu como 35px */
+	background: #145077 url( ); /* Define a cor de fundo do menu como #145077 e uma imagem de fundo */
+	color: #1100ff; /* Define a cor do texto do menu como azul (#1100ff) */
+	line-height: 35px; /* Alinha verticalmente o texto no centro do menu */
+}
+
+#menu ul{
+	padding: 0px; /* Remove o preenchimento interno do ul */
+	margin: 0px auto; /* Centraliza o ul horizontalmente com margem automática */
+	text-align: center; /* Centraliza o texto dentro do ul */
+}
+
+#menu li{
+	list-style: none; /* Remove os marcadores padrão da lista */
+	display: inline; /* Exibe os itens de lista inline, um ao lado do outro */
+}
+
+#menu li a:link{
+	height: 35px; /* Define a altura dos links como 35px */
+	padding: 8px 15px 9px 15px; /* Define o preenchimento interno dos links (superior, laterais e inferior) */
+	text-decoration: none; /* Remove o sublinhado dos links */
+	color: #ffffff; /* Define a cor dos links como branco */
+	font-weight: bold; /* Define o texto dos links como negrito */
+	font-size: 14px; /* Define o tamanho da fonte dos links como 14px */
+}
+
+#menu li a:hover{
+	background: #f30000 url( ); /* Altera o fundo dos links para vermelho (#f30000) com uma imagem ao passar o mouse */
+}
+
+#menu li a:visited{
+	height: 35px; /* Define a altura dos links visitados como 35px */
+	padding: 8px 15px 9px 15px; /* Define o preenchimento interno dos links visitados */
+	text-decoration: none; /* Remove o sublinhado dos links visitados */
+	color: #ffffff; /* Define a cor dos links visitados como branco */
+	font-weight: bold; /* Define o texto dos links visitados como negrito */
+	font-size: 14px; /* Define o tamanho da fonte dos links visitados como 14px */
+}
+
+#corpo{
+	width: 870px; /* Define a largura do corpo como 870px */
+	padding: 15px 15px 30px 15px; /* Define o preenchimento interno do corpo (superior, laterais e inferior) */
+	background: #ffffff; /* Define a cor de fundo do corpo como branco */
+	clear: both; /* Limpa as flutuações anteriores, assegurando que o conteúdo não seja afetado */
+	float: left; /* Faz o corpo flutuar à esquerda */
+}
+
+#rodape{
+	width: 870px; /* Define a largura do rodapé como 870px */
+	padding: 15px 15px 30px 15px; /* Define o preenchimento interno do rodapé (superior, laterais e inferior) */
+	background: #ffffff; /* Define a cor de fundo do rodapé como branco */
+	clear: both; /* Limpa as flutuações anteriores, assegurando que o rodapé não seja afetado */
+	float: left; /* Faz o rodapé flutuar à esquerda */
+}
+
+#rodape p{
+	border-top: 1px solid #d4d0af; /* Adiciona uma borda superior de 1px sólida na cor #d4d0af */
+	font-size: 12px; /* Define o tamanho da fonte do texto do rodapé como 12px */
+	color: #666666; /* Define a cor do texto do rodapé como cinza (#666666) */
+	margin: 0px; /* Remove a margem do parágrafo no rodapé */
+	text-align: center; /* Centraliza o texto dentro do parágrafo */
+}
+
+#titulocard{
+	width: 225px; /* Define a largura do título do card como 225px */
+	padding: 3px 0px 3px 0px; /* Define o preenchimento interno do título do card (superior e inferior) */
+	background-color: #ff0000; /* Define a cor de fundo do título do card como vermelho (#ff0000) */
+	border: 1px groove #b19e90; /* Adiciona uma borda de 1px com estilo groove na cor #b19e90 */
+	color: #ffffff; /* Define a cor do texto como branco */
+	font-weight: bold; /* Define o texto como negrito */
+	text-indent: 10px; /* Adiciona uma indentação de 10px no início do texto */
+	float: left; /* Faz o título do card flutuar à esquerda */
+	clear: left; /* Garante que o título comece em uma nova linha, abaixo de qualquer conteúdo flutuante anterior */
+}
+
+#Listapresente{
+	width: 205px; /* Define a largura da lista de presentes como 205px */
+	height: 200px; /* Define a altura da lista de presentes como 200px */
+	padding: 10px; /* Define o preenchimento interno da lista de presentes */
+	background: #ffffff; /* Define a cor de fundo da lista de presentes como branco */
+	border: 1px groove #b19e90; /* Adiciona uma borda de 1px com estilo groove na cor #b19e90 */
+	clear: left; /* Garante que o elemento comece em uma nova linha */
+	float: left; /* Faz a lista de presentes flutuar à esquerda */
+	overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo exceder a altura definida */
+}
+
+#titulodisk{
+	width: 225px; /* Define a largura do título do disk como 225px */
+	padding: 3px 0px 3px 0px; /* Define o preenchimento interno do título do disk (superior e inferior) */
+	background-color: #ff0000; /* Define a cor de fundo como vermelho (#ff0000) */
+	border: 1px groove #b19c90; /* Adiciona uma borda de 1px com estilo groove na cor #b19c90 */
+	color: #ffffff; /* Define a cor do texto como branco */
+	font-weight: bold; /* Define o texto como negrito */
+	text-indent: 10px; /* Adiciona uma indentação de 10px no início do texto */
+	float: left; /* Faz o título do disk flutuar à esquerda */
+	clear: left; /* Garante que o título comece em uma nova linha */
+	margin-top: 15px; /* Adiciona uma margem superior de 15px */
+}
+
+#disk{
+	width: 205px; /* Define a largura do disk como 205px */
+	height: 57px; /* Define a altura do disk como 57px */
+	padding: 10px; /* Define o preenchimento interno do disk */
+	background: #ffffff; /* Define a cor de fundo do disk como branco */
+	border: 1px groove #b19e90; /* Adiciona uma borda de 1px com estilo groove na cor #b19e90 */
+	float: left; /* Faz o disk flutuar à esquerda */
+	clear: left; /* Garante que o elemento comece em uma nova linha */
+}
+
+#disk p{
+	margin: 10px; /* Define a margem do parágrafo dentro do disk como 10px */
+}
+
+#titulooferta{
+	width: 620px; /* Define a largura do título da oferta como 620px */
+	padding: 3px 0px 3px 0px; /* Define o preenchimento interno do título da oferta (superior e inferior) */
+	background-color: #c70d0d; /* Define a cor de fundo como vermelho escuro (#c70d0d) */
+	border: 1px groove #b19c90; /* Adiciona uma borda de 1px com estilo groove na cor #b19c90 */
+	color: #ffffff; /* Define a cor do texto como branco */
+	font-weight: bold; /* Define o texto como negrito */
+	text-indent: 10px; /* Adiciona uma indentação de 10px no início do texto */
+	float: right; /* Faz o título da oferta flutuar à direita */
+}
+
+#oferta{
+	width: 600px; /* Define a largura da oferta como 600px */
+	height: 310px; /* Define a altura da oferta como 310px */
+	padding: 10px; /* Define o preenchimento interno da oferta */
+	background: #ffffff url( ); /* Define a cor de fundo como branco e uma imagem que será aplicada */
+	background-repeat: no-repeat; /* Define que a imagem de fundo não se repetirá */
+	background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área */
+	border: 0.5px groove #b19e90; /* Adiciona uma borda de 0.5px com estilo groove na cor #b19e90 */
+	float: right; /* Faz a oferta flutuar à direita */
+}
+
+#quadroferta{
+	width: 220px; /* Define a largura do quadro da oferta como 220px */
+	height: 50px; /* Define a altura do quadro da oferta como 50px */
+	padding: 10px; /* Define o preenchimento interno do quadro da oferta */
+	background: url(); /* Define uma imagem de fundo */
+	border: 1px groove #ffffff; /* Adiciona uma borda de 1px com estilo groove na cor #ffffff */
+	float: right; /* Faz o quadro da oferta flutuar à direita */
+	margin-top: 230px; /* Adiciona uma margem superior de 230px */
+}
+
+#enderecocasamento{
+	color: #0004ff; /* Define a cor do texto do endereço como azul (#0004ff) */
+}
+
+#titulopedido{
+	width: 870px; /* Define a largura do título do pedido como 870px */
+	padding: 3px 0px 3px 0px; /* Define o preenchimento interno do título do pedido (superior e inferior) */
+	background: #f10404; /* Define a cor de fundo como vermelho (#f10404) */
+	border: 1px groove #f30404; /* Adiciona uma borda de 1px com estilo groove na cor #f30404 */
+	color: #ffffff; /* Define a cor do texto como branco */
+	font-weight: bold; /* Define o texto como negrito */
+	text-indent: 10px; /* Adiciona uma indentação de 10px no início do texto */
+	float: right; /* Faz o título do pedido flutuar à direita */
+	margin-top: 15px; /* Adiciona uma margem superior de 15px */
+}
+
+#pedido{
+	width: 850px; /* Define a largura do pedido como 850px */
+	padding: 10px; /* Define o preenchimento interno do pedido */
+	border: 1px groove #b19e90; /* Adiciona uma borda de 1px com estilo groove na cor #b19e90 */
+	float: right; /* Faz o pedido flutuar à direita */
+}
+
+#pedido h1{
+	font-size: 17px; /* Define o tamanho da fonte dos títulos dentro do pedido como 17px */
+	margin: 0px 0px 20px 0px; /* Define a margem superior de 0px e inferior de 20px para os títulos dentro do pedido */
+}
+
+#pedido label{
+	width: 100px; /* Define a largura dos labels como 100px */
+	float: left; /* Faz os labels flutuarem à esquerda */
+	clear: left; /* Garante que os labels comecem em uma nova linha */
+	padding: 5px; /* Define o preenchimento interno dos labels como 5px */
+	margin-bottom: 6px; /* Define uma margem inferior de 6px */
+}
+
+#pedido input{
+	width: 720px; /* Define a largura dos campos de entrada como 720px */
+	float: right; /* Faz os campos de entrada flutuarem à direita */
+	clear: right; /* Garante que os campos de entrada comecem em uma nova linha */
+	padding: 5px; /* Define o preenchimento interno dos campos de entrada como 5px */
+	margin-bottom: 7px; /* Define uma margem inferior de 7px */
+	border: groove 1px #b19e90; /* Adiciona uma borda de 1px com estilo groove na cor #b19e90 */
+}
+
+#pedido .enviar{
+	width: 60px; /* Define a largura do botão de envio como 60px */
+	float: right; /* Faz o botão de envio flutuar à direita */
+	padding: 5px; /* Define o preenchimento interno do botão de envio como 5px */
+	margin: 0px; /* Remove as margens ao redor do botão de envio */
+}
+
+#pedido .enviar:active{
+	border: inset 1px #998566; /* Altera a borda para 1px com estilo inset na cor #998566 quando o botão é clicado */
+	background-color: #e9e3da; /* Altera a cor de fundo do botão para um tom de bege (#e9e3da) quando clicado */
+}

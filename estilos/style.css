@@ -1,0 +1,158 @@
+body {
+    font-family: 'Raleway', sans-serif; /* fonte do body */
+    color: #2c3e50; /* Cor que deseja */
+    margin: 0; /* margem de tamanho */
+    padding: 0; /* espaçamento */
+    background-color: #ffffff; /* fundo da cor */
+}
+
+header {
+    background-image: url('imgs/suafoto.png'); /* Substitua pela URL da sua imagem */
+    background-size: contain; /* Ajusta a imagem para ser totalmente visível */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat-x repeat-y; /* Evita repetição da imagem */
+    color: #0026ff; /* Cor do texto para garantir boa visibilidade */
+    text-align: center; /* alinhamento do texto */
+    padding: 60px 20px; /* espaçamento */
+    border-bottom: 1px solid #e5e5e5; 
+    position: relative;
+    height: 400px; /* Ajuste a altura conforme necessário */
+}
+
+header .container {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo dentro do container apareça acima da imagem de fundo */
+}
+
+.rings-background {
+    position: relative; /* Define a posição do elemento como relativa ao seu estado original */
+    display: inline-block; /* Faz com que o elemento se comporte como um bloco */
+    padding: 20px; /* Adiciona um espaço interno de Ypx ao redor do conteúdo dentro do elemento */
+    background: rgba(133, 122, 122, 0.7); /* Define uma cor de fundo com transparência */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao elemento com um raio de Ypx */
+}
+
+.rings-background h1 {
+    font-family: 'Playfair Display', serif; /* fonte da letra */
+    font-size: 3.5em; /* tamanho da letra */
+    margin: 0; /* margem do texto*/
+    color: #2c3e50; /* Cor do texto do título */
+    position: relative; /* posição onde vai ficar */
+    z-index: 1;
+}
+
+.gift-list-link {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    color: #1100ff; /* Cor do texto do link */
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.gift-list-link:hover {
+    color: #e74c3c;
+}
+
+.invitation {
+    background-color: #fff;
+    padding: 80px 40px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.invitation h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #2c3e50;
+}
+
+.invitation p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #7f8c8d;
+}
+
+.details {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.details p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.details p span {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .invitation h2 {
+        font-size: 2.2em;
+    }
+
+    .details p {
+        font-size: 1.1em;
+    }
+}
+
+.rings-background {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente para destacar o texto */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao fundo */
+}
+
+.rings-background::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    background-image: url('/siteprincipal/imgs/rings-background.png'); /* Substitua pela URL da sua imagem de aliança */
+    background-size: contain; /* Ajusta a imagem para ser totalmente visível */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+    z-index: 1; /* Garante que a imagem da aliança fique atrás do texto */
+}
+
+.rings-background h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    margin: 0;
+    color: #2c3e50; /* Cor do texto do título */
+    position: relative;
+    z-index: 2; /* Garante que o texto do título fique acima da imagem da aliança */
+}
